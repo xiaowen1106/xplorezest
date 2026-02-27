@@ -408,6 +408,11 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
+    /* make all captions the same size regardless of description length */
+    min-height: 120px;          /* adjust as needed for desired number of text lines */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -420,6 +425,11 @@ section h3.section-subheading {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
+    /* constrain description text so overly long copy doesn't stretch the card */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* limit lines to about 3 (line-height is 1.75 so 3×1.75×16px ≈ 84px) */
+    min-height: 180px;
 }
 
 #portfolio * {

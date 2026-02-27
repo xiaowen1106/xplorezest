@@ -1,15 +1,7 @@
 ---
-title: Golden
-subtitle: Website Design
-layout: default
+title: Face Truth
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+thumbnail: 3.jpg
+description: We peel back the stories you tell yourself to see the ground you’re actually standing on. By looking at reality without judgment, we turn "I'm stuck" into a clear map of choices you didn't know you had.
 
 ---

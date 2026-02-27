@@ -1,15 +1,7 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
-layout: default
+title: Take Flight
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+thumbnail: 6.jpg
+description: The adventure turns into action as you commit to the very first steps of your new life. We focus on the courage of moving forward—not being perfect—and celebrate the growth you feel as you start to truly soar.
 
 ---
