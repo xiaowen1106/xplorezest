@@ -286,8 +286,9 @@ section { padding: 88px 48px; }
 .svc p { font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
 
 /* ── ABOUT ── */
-#about { background: var(--green-pale); padding: 0; }
+#about { padding: 0; }
 .about-intro {
+  background: var(--green-pale); 
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: 32px;
