@@ -1,7 +1,0 @@
----
-title: Brave Shadows
-modal-id: 4
-thumbnail: 4.jpg
-description: We dive into the "why" behind the hesitation—the fears, the settling, and the costs of staying exactly where you are. This is where we look at what is holding you back so you can decide to stop paying for a life that's too small.
-
----

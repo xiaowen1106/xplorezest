@@ -1,7 +1,0 @@
----
-title: Take Flight
-modal-id: 6
-thumbnail: 6.jpg
-description: The adventure turns into action as you commit to the very first steps of your new life. We focus on the courage of moving forward—not being perfect—and celebrate the growth you feel as you start to truly soar.
-
----
