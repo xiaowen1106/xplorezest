@@ -16,7 +16,8 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   LinkedIn: https://www.linkedin.com/in/xiaowenzhang
-  Envelope: xplorezest@gmail.com
+  Envelope: mailto:xplorezest@gmail.com
+  Google: https://share.google/tyIQH0bqUMwTi6Atw
 
 # build settings
 markdown: kramdown
