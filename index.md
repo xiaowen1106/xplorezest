@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Hi, it's nice to meet yourself
+landing-title: Hi, It's nice to meet yourself!
 description: null
 image: null
 author: null
