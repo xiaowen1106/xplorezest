@@ -2,7 +2,7 @@
 layout: page
 title: Who you are
 description: There’s no one better at being you than yourself.
-image: 
+image: assets/images/pic09.jpg
 nav-menu: true
 ---
 

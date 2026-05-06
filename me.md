@@ -2,7 +2,7 @@
 layout: page
 title: Who I am
 description: I’m not here as someone who has everything figured out—I’m here as someone who has done, and continues to do, this work. 
-image: 
+image: assets/images/pic06.jpg
 nav-menu: true
 ---
 
