@@ -23,6 +23,10 @@ markdown: kramdown
 sass:
   style: compressed
 
+plugins:
+  - jekyll-timeago
+  - jekyll-sitemap
+
 exclude:
 - "*.gemspec"
 - LICENSE.md
