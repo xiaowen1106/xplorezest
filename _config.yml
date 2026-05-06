@@ -2,9 +2,9 @@
 title: XploreZest
 subtitle: by Xiaowen Zhang
 email: xplorezest@gmail.com
-description: Create space for you to feel seen, valued, and at ease in who you are.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+description: A space for you to feel seen, valued, and at ease in who you are.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://xplorezest.com # the base hostname & protocol for your site
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -15,7 +15,7 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  LinkedIn: https://www.linkedin.com/in/xiaowenzhang
+  # LinkedIn: https://www.linkedin.com/in/xiaowenzhang
 
 # build settings
 markdown: kramdown
