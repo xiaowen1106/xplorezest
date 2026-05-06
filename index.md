@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-From this place, you begin to let go of the past, soften expectations, and experience life with more ease, openness, and freedom in each moment. 
+From this space, you begin to let go of the past, soften expectations, and experience life with more ease, openness, and freedom in each moment. 
