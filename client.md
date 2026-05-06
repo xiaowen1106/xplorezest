@@ -16,9 +16,10 @@ nav-menu: true
 			<h1>Who you are</h1>
 		</header>
 
+<p>There is no one better at being you than yourself. Not because you are perfect. Not because you have it all figured out. But because no one else carries your exact combination of history, instincts, doubts, desires, and the way you make meaning of your life.</p>
 
 <!-- Content -->
-<p>I understand what it feels like to carry expectations, to question yourself, and to look for a different way of being.</p>
+<p>There are moments when life does not feel clear or stable. Moments when your thoughts become crowded with questions that don’t resolve easily:</p>
 	<ul>
 		<li>I feel overwhelmed with AI changing everything—what if my skills become irrelevant?</li>
 		<li>Everyone seems to be adapting faster than me. Where do I even start?</li>
@@ -33,7 +34,6 @@ nav-menu: true
 		<li>Why do I never feel ‘good enough’ even when I try hard?</li>
 		<li>...</li>
 	</ul>
-
 
 		</div>
 </section>
