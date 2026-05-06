@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Life Coaching
 landing-title: Hi, It's nice to meet yourself!
 description: null
 image: null
