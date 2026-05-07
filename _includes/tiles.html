@@ -10,9 +10,14 @@
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      <h3>{{ tile.title }}</h3>
       <p>{{ tile.description }}</p>
+      <ul class="actions" style="margin-top: 1em;">
+        <li><a href="{{ tile.url  | relative_url }}" class="button">Read More</a></li>
+      </ul>
     </header>
+    
+                
   </article>
   {% endfor %}
 </section>

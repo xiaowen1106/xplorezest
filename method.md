@@ -21,7 +21,7 @@ nav-menu: true
           <!-- {% if post.date %}<p>{{ post.date }}</p>{% endif %} -->
           <p>{{ post.description }}</p>
             <ul class="actions">
-			        <li><a href="{{ post.url }}" class="button">Learn more</a></li>
+			        <li><a href="{{ post.url }}" class="button">Read more</a></li>
 				</ul>
           {% endif %}
                 {% endfor %}
