@@ -19,7 +19,7 @@ a { color: inherit; }
 .skip-link { position: absolute; z-index: 10; top: -100px; left: 16px; padding: 12px 16px; background: var(--white); }
 .skip-link:focus { top: 16px; }
 
-.header { width: min(1160px, calc(100% - 48px)); height: 88px; margin-inline: auto; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 5; border-bottom: 1px solid var(--line); }
+.header { width: min(1160px, calc(100% - 48px)); height: 88px; margin: 12px auto 0; padding-inline: 18px; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 5; border: 1px solid var(--line); border-radius: 8px; background: var(--white); box-shadow: 0 8px 24px rgba(39,54,50,.08); }
 .logo { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); font-size: 17px; font-weight: 700; letter-spacing: -.05em; text-decoration: none; }
 .header-logo-link { line-height: 0; }
 .header-logo { display: block; width: 74px; height: 74px; object-fit: contain; }
@@ -28,7 +28,8 @@ a { color: inherit; }
 .nav { display: flex; align-items: center; gap: 27px; color: #53615a; font-size: 13px; }
 .nav a { text-decoration: none; transition: color .2s; }
 .nav a:hover { color: var(--green); }
-.nav .nav-button { padding: 10px 14px; border: 1px solid #9aaa9d; border-radius: 3px; color: var(--green-dark); }
+.nav .nav-button { padding: 10px 14px; border: 1px solid var(--green); border-radius: 3px; background: var(--green); color: var(--white); }
+.nav .nav-button:hover { border-color: var(--green-dark); background: var(--green-dark); color: var(--white); }
 .nav-button span { margin-left: 8px; }
 .menu-toggle { display: none; }
 
@@ -86,8 +87,6 @@ h1 span, .about-title h2 span { color: var(--green); }
 .about-title h2 { font-size: 36px; }
 .about-title h2 span { font-style: italic; }
 .about-copy { max-width: 590px; }
-.about-signature { display: flex; align-items: center; gap: 10px; margin-top: 20px; color: var(--green); font: 14px var(--serif); }
-.signature-line { width: 24px; height: 1px; background: #88a18b; }
 
 .contact { background: var(--green); color: var(--white); }
 .contact-inner { min-height: 305px; padding-top: 55px; padding-bottom: 55px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
@@ -121,7 +120,7 @@ h1 span, .about-title h2 span { color: var(--green); }
 }
 @media (max-width: 640px) {
   .section, .header { width: calc(100% - 40px); }
-  .header { height: 68px; }
+  .header { height: 68px; margin-top: 8px; padding-inline: 10px; }
   .header-logo { width: 58px; height: 58px; }
   .menu-toggle { width: 38px; height: 38px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border: 1px solid var(--line); border-radius: 50%; background: transparent; }
   .menu-toggle span { width: 15px; height: 1px; background: var(--ink); transition: transform .2s; }
