@@ -1,7 +1,0 @@
----
-title: Claim Desire
-modal-id: 2
-thumbnail: 2.jpg
-description: Instead of just "surviving," we pause to ask what your heart actually wants to walk away with. We cut through the noise of what you should do to find a target that feels truly meaningful and worth the trek.
-
----

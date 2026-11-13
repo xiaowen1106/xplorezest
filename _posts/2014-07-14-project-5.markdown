@@ -1,7 +1,0 @@
----
-title: Spark Wonder
-modal-id: 5
-thumbnail: 5.jpg
-description: Now we dream without the brakes on, asking what you would dare to do if you knew you couldn't fail. We look past your old limits to design a future that feels expansive, creative, and entirely possible for you.
-
----

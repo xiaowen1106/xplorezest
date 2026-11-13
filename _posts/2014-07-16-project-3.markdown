@@ -1,7 +1,0 @@
----
-title: Face Truth
-modal-id: 3
-thumbnail: 3.jpg
-description: We peel back the stories you tell yourself to see the ground you’re actually standing on. By looking at reality without judgment, we turn "I'm stuck" into a clear map of choices you didn't know you had.
-
----

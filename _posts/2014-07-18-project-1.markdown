@@ -1,7 +1,0 @@
----
-title: Release Pressure
-modal-id: 1
-thumbnail: 1.jpg
-description: We start by simply clearing the air and letting the weight of your thoughts out into the open. This is about finding the words for that "heavy" feeling so we can finally see what we are actually dealing with.
-
----
