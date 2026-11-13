@@ -161,6 +161,35 @@ h1 span, .about-title h2 span { color: var(--green); }
   .footer-inner { min-height: 0; padding-top: 20px; padding-bottom: 20px; flex-wrap: wrap; }
   .footer-inner p { width: calc(100% - 125px); text-align: right; }
 }
+/* Slightly larger body copy for easier reading */
+.hero-text { font-size: 17px; }
+.button { font-size: 14px; }
+.simple-link { font-size: 13px; }
+.eyebrow, .section-label { font-size: 12px; }
+.section-copy p, .about-copy p { font-size: 15px; }
+.small-note { font-size: 13px; }
+.themes-note { font-size: 15px; }
+.card-top { font-size: 11px; }
+.card-kicker { font-size: 12px; }
+.card-copy { font-size: 14px; }
+.card > a { font-size: 13px; }
+.process-heading > p, .contact-copy > p { font-size: 14px; }
+.step p { font-size: 13px; }
+.contact-fee-price span, .contact-fee-rules p { font-size: 13px; }
+.footer-inner p, .footer-inner a:not(.logo), .footer-inner small { font-size: 11px; }
+@media (max-width: 640px) {
+  .hero-text { font-size: 15px; }
+  .section-copy p, .about-copy p { font-size: 14px; }
+}
+/* Slightly larger navigation text */
+.nav { font-size: 14px; }
+.language-link { font-size: 14px; }
+@media (max-width: 800px) {
+  .nav { font-size: 13px; }
+}
+@media (max-width: 640px) {
+  .nav { font-size: 14px; }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }

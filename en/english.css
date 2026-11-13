@@ -6,10 +6,19 @@ html[lang="en"] .section-label { letter-spacing: .1em; text-transform: uppercase
 html[lang="en"] .nav { font-size: 12px; }
 html[lang="en"] .card-top { text-transform: uppercase; }
 html[lang="en"] .contact-fee-price strong { font-family: var(--serif); }
+
 @media (max-width: 800px) {
   html[lang="en"] .nav { font-size: 11px; gap: 12px; }
 }
 @media (max-width: 640px) {
   html[lang="en"] .nav { font-size: 13px; }
   html[lang="en"] h1 { font-size: clamp(37px, 9vw, 50px); }
+}
+/* Slightly larger navigation text */
+html[lang="en"] .nav { font-size: 14px; }
+@media (max-width: 800px) {
+  html[lang="en"] .nav { font-size: 13px; }
+}
+@media (max-width: 640px) {
+  html[lang="en"] .nav { font-size: 14px; }
 }
