@@ -1,20 +1,150 @@
----
-layout: default
----
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f4">
+  <meta name="description" content="通过真诚而有方向的教练对话，梳理工作与生活中的困惑，跳出熟悉模式，找到适合自己的下一步。">
+  <title>XploreZest | 做你自己这件事</title>
+  <link rel="icon" href="./favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="header">
+    <a class="logo header-logo-link" href="#top" aria-label="XploreZest 首页"><img class="header-logo" src="./logo.png" alt=""></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="打开导航菜单"><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#coaching">什么是教练对话</a>
+      <a href="#themes">对话主题</a>
+      <a href="#fees">费用说明</a>
+      <a href="#about">关于我</a>
+      <a class="nav-button" href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">预约教练对话 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<div class="home">
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> XploreZest · 教练对话</p>
+        <h1>做自己这件事，<br><span>没有人比你做得更好。</span></h1>
+        <p class="hero-text">你最了解自己的经历、在意和渴望。真诚、有方向的教练对话，能帮你把这些线索梳理清楚，找到真正适合自己的选择，更有信心地走自己的路。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">预约教练对话 <span aria-hidden="true">↗</span></a>
+          <a class="simple-link" href="#themes">看看可以聊什么 <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
 
-  <h1>Posts</h1>
+    <section class="coaching section" id="coaching">
+      <div class="section-label"><span>01</span> 什么是教练对话</div>
+      <div class="coaching-grid">
+        <h2>一段有方向的对话，<br>帮你听见自己的答案。</h2>
+        <div class="section-copy">
+          <p>Life Coaching（教练对话）是一种以倾听和提问为核心的支持方式。当你面对选择、感到卡住，或想为生活做出改变时，教练会陪你梳理情况、觉察熟悉的思维和行动模式，并探索适合自己的方向。</p>
+          <p>你不需要先把问题整理好才来。我们从你此刻最在意的事开始，让新的理解慢慢变成现实中的下一步。</p>
+          <div class="small-note"><span class="dot"></span> 你的生活由你决定；对话帮助你更清楚地做出选择。</div>
+        </div>
+      </div>
+    </section>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <section class="themes section" id="themes">
+      <div class="section-heading">
+        <div>
+          <div class="section-label"><span>02</span> 对话主题</div>
+          <h2>让我们从一个话题开始。</h2>
+        </div>
+        <p>工作与生活彼此交织。<br>这些主题是入口，不是边界。</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top"><span>主题 01</span><span class="card-mark">↗</span></div>
+          <p class="card-kicker">年末 · 回望与展望</p>
+          <h3>给这一年一个回望，<br>给下一年一点空间。</h3>
+          <p class="card-copy">看看这一年什么滋养了你、什么消耗了你；想带走什么，又想为自己留出什么新的可能。</p>
+          <a href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">从一次年末对话开始 <span>→</span></a>
+        </article>
+        <article class="card">
+          <div class="card-top"><span>主题 02</span><span class="card-mark">↗</span></div>
+          <p class="card-kicker">工作 · 选择与发展</p>
+          <h3>在职业岔路口，<br>找到自己的判断。</h3>
+          <p class="card-copy">升职、跳槽、转型或重要决策——理清选项和自己在意的事，探索更适合自己的行动方向。</p>
+          <a href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">聊聊职业选择 <span>→</span></a>
+        </article>
+        <article class="card">
+          <div class="card-top"><span>主题 03</span><span class="card-mark">↗</span></div>
+          <p class="card-kicker">日常 · 拖延、内耗与迷茫</p>
+          <h3>看见熟悉的循环，<br>找到松动的地方。</h3>
+          <p class="card-copy">一起梳理是什么让你卡住，觉察反复出现的模式，把模糊的压力变成一个可以开始的小步。</p>
+          <a href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">从当下的困扰聊起 <span>→</span></a>
+        </article>
+      </div>
+    </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <section class="process">
+      <div class="section process-inner">
+        <div class="process-heading">
+          <div class="section-label"><span>03</span> 对话如何进行</div>
+          <h2>看见内心，<br>做出自己的选择。</h2>
+          <p>关注一个你在意的话题，通过对话看见内心的渴望或羁绊，做出有意识的选择，从这一步开始改变。</p>
+        </div>
+        <div class="steps">
+          <article class="step"><span>01</span><div><h3>陪伴</h3><p>从你此刻的真实处境开始，给思考和感受留出空间。</p></div></article>
+          <article class="step"><span>02</span><div><h3>看见</h3><p>通过倾听与提问，看见熟悉的模式、内心的需要和在意之处。</p></div></article>
+          <article class="step"><span>03</span><div><h3>选择</h3><p>梳理可能的方向，找到更贴近自己的选择。</p></div></article>
+          <article class="step"><span>04</span><div><h3>改变</h3><p>把新的选择带回生活，从一个实际的小步开始。</p></div></article>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <section class="about section" id="about">
+      <div class="about-title">
+        <div class="section-label"><span>04</span> 关于我</div>
+        <h2>你好，我是<br><span>小文。</span></h2>
+      </div>
+      <div class="about-copy">
+        <p>我是一名 Life Coach，也在科技行业工作了十多年，经历过不同节奏的团队与职场。从北京到欧洲，再到加拿大生活，跨文化的经历让我不断重新认识自己，也让我更理解人生转变中那些复杂、真实的感受。</p>
+        <p>我曾经很擅长解决复杂的问题，却也需要学习如何照顾自己、平衡工作和生活。一路上的探索让我相信，很多时候，我们需要的不是别人替自己决定，而是一段认真、有方向的对话，帮助自己听见内心、看清选择，重新找回信心与韧性。</p>
+        <p>我希望用真诚的对话和稳定的陪伴，和你一起跳出熟悉的模式，找到更适合自己的方向，充满能量地去做真正想做的事。</p>
+        <div class="about-signature"><span class="signature-line"></span>愿你更自在地走自己的路。</div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section contact-inner">
+        <div>
+          <p class="eyebrow eyebrow-light"><span class="dot"></span> 聊聊你正在经历的事</p>
+          <h2>让我们一起，<br>找到适合你的下一步。</h2>
+          <p>带着此刻最想梳理的事来就好。预约一次教练对话，我们从那里开始。</p>
+        </div>
+        <a class="button button-light" href="https://calendly.com/xplorezest/session" target="_blank" rel="noopener noreferrer">预约教练对话 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="section contact-fees" id="fees">
+        <div class="contact-fee-heading">
+          <p>每次对话 · 50 分钟</p>
+        </div>
+        <div class="contact-fee-main">
+          <div class="contact-fee-price"><strong>129 元</strong><span>或</span><strong>29 CAD</strong></div>
+          <div class="contact-fee-rules">
+            <p><span>✓</span>先预约，后收费</p>
+            <p><span>✓</span>对本次对话不满意，可申请退款</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section footer-inner">
+      <a class="logo" href="#top"><img class="logo-mark" src="./favicon.png" alt=""><span>Xplore<span class="logo-accent">Zest</span></span></a>
+      <p>陪伴 · 看见 · 选择 · 改变</p>
+      <a href="mailto:xplorezest@gmail.com">xplorezest@gmail.com</a>
+      <small>© <span id="year">2026</span> XploreZest</small>
+    </div>
+  </footer>
+  <script src="./script.js" defer></script>
+</body>
+</html>
